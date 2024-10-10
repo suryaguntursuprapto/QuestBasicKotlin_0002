@@ -40,6 +40,4 @@ fun main(){
 
     stringValue = "Hello, Kotlin"
     println("String: $stringValue")
-
-    //a
 }
