@@ -24,5 +24,11 @@ fun nullSafety(){
     println(neverNull.length)//18
     println(nullable?.length)
 
-    //
+    //notNull doesn't accept null values
+    fun strLength(notNull: String): Int {
+       return  notNull.length
+    }
+
+    println(strLength(neverNull))//18
 }
+
