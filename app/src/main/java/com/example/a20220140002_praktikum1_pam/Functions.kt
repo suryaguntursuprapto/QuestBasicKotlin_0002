@@ -28,3 +28,11 @@ fun withDefaultParameter(name: String = "Indra", age: Int){
 fun withReturn(panjang: Int, lebar: Int){
     return println(panjang * lebar)
 }
+
+fun main(){
+    withoutParameter()
+    withParameter("John")
+    withNameArgument(name = "John", age = 30)
+    withDefaultParameter(age = 25)
+    withReturn(3,4)
+}
