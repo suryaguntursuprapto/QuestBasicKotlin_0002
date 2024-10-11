@@ -4,3 +4,9 @@ fun withoutParameter(){
     println("== withoutParameter ==")
     println("Hello, World!")
 }
+
+fun withParameter(name: String){
+    println()
+    println("== WithParameter ==")
+    println("Hello, $name!")
+}
