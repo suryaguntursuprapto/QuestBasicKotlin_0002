@@ -10,3 +10,11 @@ fun withParameter(name: String){
     println("== WithParameter ==")
     println("Hello, $name!")
 }
+
+//name argument merupakan cara untuk memangiil fungsi dengan menyebutkan nama parameter
+fun withNameArgument(name: String, age: Int){
+    println()
+    println("== WithNameArgument ==")
+    println("Hello, $name! you are $age years old.")
+}
+
