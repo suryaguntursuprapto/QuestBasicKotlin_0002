@@ -29,7 +29,7 @@ fun nullSafety(){
        return  notNull.length
     }
 
-    println(strLength(neverNull))//18
+    println(strLength(neverNull))//18.
 }
 
 fun main(){
