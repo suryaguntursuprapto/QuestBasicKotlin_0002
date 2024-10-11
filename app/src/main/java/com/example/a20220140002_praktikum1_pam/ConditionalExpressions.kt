@@ -12,4 +12,16 @@ fun ConditionalStatement(){
     }else{
         println("Negative number")
     }
+
+    //when
+    val day = 1
+    when (day){
+        1 -> println("Sunday")
+        2 -> println("Monday")
+        3 -> println("Tuesday")
+        4 -> println("Wednesday")
+        5 -> println("Friday")
+        6 -> println("Saturday")
+        else -> println("Invalid Day")
+    }
 }
